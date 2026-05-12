@@ -12,4 +12,5 @@ df = spark.createDataFrame(data=[('hong',28, False),('kim',33,True)], schema=sch
 df.show()
 
 # sleep 5 minute
+
 time.sleep(300)
